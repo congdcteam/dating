@@ -737,13 +737,13 @@
     $TEXT['page-gallery'] = "Thư viện ảnh";
     $TEXT['page-my-gallery'] = "Thư viện ảnh của tôi";
     $TEXT['page-matches'] = "Trận đấu";
-    $TEXT['page-media-stream'] = "Dòng phương tiện";
-    $TEXT['page-media-feed'] = "Nguồn cấp dữ liệu phương tiện";
+    $TEXT['page-media-stream'] = "Người dùng toàn cầu";
+    $TEXT['page-media-feed'] = "Bạn bè đang theo dõi";
 
     $TEXT['page-gallery-sub-title'] = "Ảnh và video";
     $TEXT['page-matches-sub-title'] = "Trận đấu của tôi";
-    $TEXT['page-media-stream-sub-title'] = "Luồng ảnh người dùng trên toàn cầu";
-    $TEXT['page-media-feed-sub-title'] = "Ảnh của bạn bè tôi";
+    $TEXT['page-media-stream-sub-title'] = "Luồng dữ liệu ảnh của người dùng trên toàn cầu";
+    $TEXT['page-media-feed-sub-title'] = "Luồng dữ liệu ảnh của bạn bè";
 
     $TEXT['action-add-photo'] = "Thêm ảnh";
     $TEXT['label-add-photo'] = "Chọn ảnh để thêm vào thư viện";

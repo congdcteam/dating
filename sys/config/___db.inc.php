@@ -1,12 +1,12 @@
 <?php
 
     /*!
-     * raccoonsquare.com
+     * apphenho.com
      *
-     * https://raccoonsquare.com
-     * raccoonsquare@gmail.com
+     * https://apphenho.com
+     * tienluanpham379@gmail.com
      *
-     * Copyright 2012-2022 Demyanchuk Dmitry (raccoonsquare@gmail.com)
+     * Copyright 2012-2022 Demyanchuk Dmitry (tienluanpham379@gmail.com)
      */
 
 $C = array();
@@ -16,22 +16,22 @@ $B['APP_DEMO'] = false;                                      //true = enable dem
 
 $B['APP_MESSAGES_COUNTERS'] = true;                         //true = show new messages counters
 $B['APP_MYSQLI_EXTENSION'] = true;                          //if on the server is not installed mysqli extension, set to false
-$B['FACEBOOK_AUTHORIZATION'] = true;                        //false = Do not show buttons Login/Signup with Facebook | true = allow display buttons Login/Signup with Facebook
+$B['FACEBOOK_AUTHORIZATION'] = false;                        //false = Do not show buttons Login/Signup with Facebook | true = allow display buttons Login/Signup with Facebook
 
-$C['COMPANY_URL'] = "http://codecanyon.net/user/qascript/portfolio?ref=qascript";
+$C['COMPANY_URL'] = "http://apphenho.com";
 
 $B['APP_PATH'] = "app";
 $B['APP_VERSION'] = "1";
-$B['APP_NAME'] = "Dating App";
-$B['APP_TITLE'] = "Dating App";
-$B['APP_VENDOR'] = "raccoonsquare.com";
-$B['APP_YEAR'] = "2021";
-$B['APP_AUTHOR'] = "Demyanchuk Dmitry";
-$B['APP_SUPPORT_EMAIL'] = "raccoonsquare@gmail.com";
+$B['APP_NAME'] = "&#128145;DATING &#128150; APP HẸN HÒ &#128151;";
+$B['APP_TITLE'] = "&#128145;DATING &#128150; APP HẸN HÒ &#128151;";
+$B['APP_VENDOR'] = "apphenho.com";
+$B['APP_YEAR'] = "2022";
+$B['APP_AUTHOR'] = "Phillip Bowm";
+$B['APP_SUPPORT_EMAIL'] = "tienluanpham379@gmail.com";
 $B['APP_AUTHOR_PAGE'] = "qascript";
 
-$B['APP_HOST'] = "localhost";                 //edit to your domain, example (WARNING - without http:// and www): yourdomain.com
-$B['APP_URL'] = "http://localhost";           //edit to your domain url, example (WARNING - with http:// or https://): http://yourdomain.com
+$B['APP_HOST'] = "apphenho.com";                 //edit to your domain, example (WARNING - without http:// and www): yourdomain.com
+$B['APP_URL'] = "http://apphenho.com";           //edit to your domain url, example (WARNING - with http:// or https://): http://yourdomain.com
 
 $B['TEMP_PATH'] = "tmp/";                                //don`t edit this option
 $B['PHOTO_PATH'] = "photo/";                             //don`t edit this option
@@ -42,7 +42,7 @@ $B['MY_PHOTOS_PATH'] = "gallery/";                       //don`t edit this optio
 $B['VIDEO_PATH'] = "video/";                             //don`t edit this option
 $B['STICKERS_PATH'] = "stickers/";                       //don`t edit this option
 
-$B['GOOGLE_PLAY_LINK'] = "https://play.google.com/store/apps/details?id=com.raccoonsquare.dating";
+$B['GOOGLE_PLAY_LINK'] = "https://play.google.com/store/apps";
 
 $B['CLIENT_ID'] = 1;                               //Client ID | Integer | For identify the application | Example: 12567
 $B['CLIENT_SECRET'] = "wFt4*KBoNN_kjSdG13m1k3k=";        //Client Secret | String | Text value for identify the application | Example: wFt4*KBoNN_kjSdG13m1k3k=
@@ -52,10 +52,10 @@ $B['CLIENT_SECRET'] = "wFt4*KBoNN_kjSdG13m1k3k=";        //Client Secret | Strin
 $B['STRIPE_PUBLISHABLE_KEY'] = "pk_test_Fv4E55L3N8dp36NcpyxhGYzW6r";
 $B['STRIPE_SECRET_KEY'] = "sk_test_hLn3Pfu0vdl7M5p45ZInquCtvbK";
 
-// Google OAuth client |
+// RedBullMiru | Google OAuth client | https://kb.pavietnam.vn/huong-dan-tao-ung-dung-oauth-client-id-google.html
 
-$B['GOOGLE_CLIENT_ID'] = "456456456456-n9rvrf1d8uv497poa5a0hr9d5tpsi0eds.apps.googleusercontent.com";
-$B['GOOGLE_CLIENT_SECRET'] = "DUnR82b0HWXPPdZxBArg1MI3";
+$B['GOOGLE_CLIENT_ID'] = "137813891512-2g5ea33j77svjt4fsdsrst67vvjbppdm.apps.googleusercontent.com";
+$B['GOOGLE_CLIENT_SECRET'] = "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";
 
 // Push notifications settings | For sending FCM (Firebase Cloud Messages) | https://raccoonsquare.com/help/how_to_create_fcm_android/
 
@@ -69,15 +69,15 @@ $B['FIREBASE_SENDER_ID'] = $B['GOOGLE_SENDER_ID'];
 
 $B['FIREBASE_PROJECT_ID'] = "dating-app-86231";
 
-// Facebook settings | For login/signup with facebook | https://raccoonsquare.com/help/how_to_create_facebook_application_and_get_app_id_and_app_secret/
+// RedBullMiru | Facebook settings | For login/signup with facebook | https://raccoonsquare.com/help/how_to_create_facebook_application_and_get_app_id_and_app_secret/
 
-$B['FACEBOOK_APP_ID'] = "3453453453445345";
-$B['FACEBOOK_APP_SECRET'] = "e961f4egfad1d65ef08f1e491690be56b24";
+$B['FACEBOOK_APP_ID'] = "2437200219769523";
+$B['FACEBOOK_APP_SECRET'] = "8df6e4a2dcfe0d8cb7c013214bd4383b";
 
-// Recaptcha settings | Create you keys for reCAPTCHA v3 | https://www.google.com/recaptcha/admin/create
+// RedBullMiru | Recaptcha settings | Create you keys for reCAPTCHA v3 | https://www.google.com/recaptcha/admin/create
 
-$B['RECAPTCHA_SITE_KEY'] = "6LeDMrsZ4AAAAABl-hJMuzsj2ogn3swLgflro0hmHSD";
-$B['RECAPTCHA_SECRET_KEY'] = "6LeDMrsZAAgAAAKYGhjyXvK3qCqtIE5lMik6lENx9";
+$B['RECAPTCHA_SITE_KEY'] = "6LcQyY0iAAAAAAdlnqZ36804pv750Kl0f5HEd9Sz";
+$B['RECAPTCHA_SECRET_KEY'] = "6LcQyY0iAAAAAMJuNpJo_3ImsHtEGeM03OPolXvQ";
 
 // SMTP Settings | For password recovery
 
@@ -91,13 +91,13 @@ $B['SMTP_PASSWORD'] = 'password';                      //SMTP password
 
 //Please edit database data
 
-$C['DB_HOST'] = "localhost";                                //localhost or your db host
-$C['DB_USER'] = "your db user";                             //your db user
-$C['DB_PASS'] = "your db password";                         //your db password
-$C['DB_NAME'] = "your db name";                             //your db name
+$C['DB_HOST'] = "mysql";                                //localhost or your db host
+$C['DB_USER'] = "u170542041_redbull";                             //your db user
+$C['DB_PASS'] = "4dW+5u9HQ#sS";                         //your db password
+$C['DB_NAME'] = "u170542041_apphenho";                             //your db name
 
 
-$C['DEFAULT_BALANCE'] = 10;                                    // Default user balance in credits (Is charged during the user registration)
+$C['DEFAULT_BALANCE'] = 100;                                    // Default user balance in credits (Is charged during the user registration)
 
 $C['ERROR_SUCCESS'] = 0;
 
@@ -188,6 +188,7 @@ $C['ADMIN_ACCESS_LEVEL_MODERATOR'] = 1;
 $C['ADMIN_ACCESS_LEVEL_GUEST'] = 2;
 
 $LANGS = array();
-$LANGS['English'] = "en";
+$LANGS['Tiếng Việt'] = "vi";
 $LANGS['Русский'] = "ru";
+$LANGS['English'] = "en";
 
